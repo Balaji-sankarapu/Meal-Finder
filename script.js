@@ -39,9 +39,9 @@ async function loadCategories() {
   }
 }
 
-// function handleEnterKey(event) {
-//   if (event.key === "Enter") searchMeal();
-// }
+function handleEnterKey(event) {
+  if (event.key === "Enter") searchMeal();
+}
 
 async function searchMeal() {
   const input = document.getElementById("searchInput").value.trim();
