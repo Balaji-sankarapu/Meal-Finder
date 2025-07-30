@@ -117,8 +117,8 @@ async function loadMealDetail(id) {
       }
     }
 
-    mealsSection.innerHTML = "";
-    mealDetails.style.display = "block";
+    // mealsSection.innerHTML = "";
+    // mealDetails.style.display = "block";
 
     mealDetails.innerHTML = `
       <div class="meal-header orange-bar">
