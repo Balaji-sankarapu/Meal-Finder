@@ -117,8 +117,8 @@ async function loadMealDetail(id) {
       }
     }
 
-    // mealsSection.innerHTML = "";
-    // mealDetails.style.display = "block";
+    mealsSection.innerHTML = "";
+    mealDetails.style.display = "block";
 
     mealDetails.innerHTML = `
       <div class="meal-header orange-bar">
@@ -172,13 +172,13 @@ async function loadMealDetail(id) {
   }
 }
 
-// function goBack() {
-//   mealDetails.style.display = "none";
-//   loadCategories();
-//   document.querySelector(".categories-section").scrollIntoView({
-//     behavior: "smooth",
-//     block: "start"
-//   });
-// }
+function goBack() {
+  mealDetails.style.display = "none";
+  loadCategories();
+  document.querySelector(".categories-section").scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+}
 
-// loadCategories();
+loadCategories();
