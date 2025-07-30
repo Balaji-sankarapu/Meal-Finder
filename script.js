@@ -172,13 +172,13 @@ async function loadMealDetail(id) {
   }
 }
 
-function goBack() {
-  mealDetails.style.display = "none";
-  loadCategories();
-  document.querySelector(".categories-section").scrollIntoView({
-    behavior: "smooth",
-    block: "start"
-  });
-}
+// function goBack() {
+//   mealDetails.style.display = "none";
+//   loadCategories();
+//   document.querySelector(".categories-section").scrollIntoView({
+//     behavior: "smooth",
+//     block: "start"
+//   });
+// }
 
-loadCategories();
+// loadCategories();
