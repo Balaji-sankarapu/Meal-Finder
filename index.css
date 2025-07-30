@@ -40,7 +40,7 @@ header {
   padding: 10px;
 }
 
-.hero {
+.search-container {
   background: url(/img/back.jpg) center/cover no-repeat;
   text-align: center;
   height: 400px;
